@@ -19,6 +19,10 @@ To use the config, launch CS:GO, and the autoexec file will be automatically exe
 
 Feel free to modify the autoexec.cfg file to suit your preferences by adding, removing, or adjusting the commands as needed.
 
+## Usage of Practice.cfg
+
+This practice config file helps create a customizable practice environment by adjusting match settings, providing helpful keybindings for grenade practice, and enabling cheat commands for practice purposes.
+
 ## Contributing
 
 If you have any suggestions, improvements, or bug fixes for the config file, please feel free to contribute by creating a pull request. Your contributions are greatly appreciated!
