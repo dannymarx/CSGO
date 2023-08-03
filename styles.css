@@ -1,0 +1,66 @@
+/* Body styles */
+body {
+  background-color: #1c1c1c;
+  color: #fff;
+}
+
+/* Custom styles for the navbar */
+.navbar {
+  background-color: #9576ab; /* Same as the footer background color */
+}
+
+/* Styling for the links in the navbar */
+.navbar-nav .nav-link {
+  color: #ffffff; /* Set the text color to white */
+}
+
+/* Customize the Bootstrap buttons */
+.btn {
+  background-color: #1c1c1c; /* Set the button background color */
+  color: #ffffff; /* Set the button text color */
+  border-color: #ffffff; /* Set the button border color */
+}
+
+/* Customize the Bootstrap buttons on hover and focus */
+.btn:hover,
+.btn:focus {
+  background-color: #9576ab; /* Change this to your desired hover background color */
+  color: #ffffff; /* Change this to your desired hover text color */
+  border-color: #ffffff; /* Change this to your desired hover border color */
+}
+
+/* Custom styles for the footer */
+footer {
+  background-color: #9576ab; /* Change this to your desired footer background color */
+  color: #ffffff; /* Set the text color for the footer */
+}
+
+/* Custom style for the footer to avoid content hiding */
+.footer-style {
+  padding-bottom: 70px;
+}
+
+/* Additional custom styles for sticky footer and fixed navbar */
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+.content {
+  flex: 1;
+}
+
+.link-iframe {
+  position: relative;
+}
+
+.link-iframe .iframe-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
